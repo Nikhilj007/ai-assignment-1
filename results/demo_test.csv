@@ -1,0 +1,33 @@
+id,context,statement
+rt-test-4402-0,The bear chases the cat. The bear chases the dog. The bear is cold. The bear is red. The bear is round. The bear sees the cat. The cat chases the dog. The cat is red. The cat sees the bear. The cat sees the dog. The dog chases the bear. The dog chases the cat. The dog is round. The dog sees the bear. The dog sees the cat. If someone is blue then they see the bear. If someone is red and they see the bear then they see the dog. If someone sees the bear and the bear likes the dog then the dog sees the bear. If someone is red and they see the dog then the dog likes the cat. If the bear chases the cat and the cat is red then the bear likes the cat. If someone is round and they chase the cat then they are blue.,The dog sees the bear.
+rt-test-2067-0,The bald eagle chases the cow. The bald eagle chases the lion. The bald eagle is green. The bald eagle likes the lion. The cow is green. The cow is rough. The cow is round. The cow likes the rabbit. The lion likes the bald eagle. The lion likes the rabbit. The rabbit chases the cow. The rabbit is rough. The rabbit likes the cow. The rabbit likes the lion. The rabbit visits the bald eagle. If the lion visits the bald eagle and the bald eagle chases the cow then the lion likes the bald eagle. If something chases the lion then it likes the rabbit.,The cow likes the rabbit.
+rt-test-8358-0,"Bob is red. Bob is smart. Charlie is blue. Charlie is green. Charlie is red. Charlie is rough. Charlie is smart. Gary is red. Gary is rough. Harry is blue. Harry is green. Harry is red. If something is big then it is not smart. All furry, blue things are green. All rough things are blue. If Harry is smart and Harry is red then Harry is not big. If something is not smart then it is big. If something is furry and not big then it is red.",Gary is red.
+rt-test-3863-0,"Dave is furry. Harry is big. All rough people are nice. Smart, rough people are nice. Cold people are nice. If Harry is big and Harry is smart then Harry is not nice. If Harry is nice then Harry is not round. If someone is furry and not smart then they are big. Smart people are round. If Harry is big and Harry is not cold then Harry is rough.",Dave is furry.
+rt-test-16234-0,The lion is rough. If something is rough and round then it is cold. If the lion is cold and the lion is nice then the lion is round. If the lion is cold then the lion is round.,The lion is rough.
+rt-test-14728-0,"Anne is big. Anne is furry. Charlie is big. Charlie is green. Charlie is rough. Fiona is furry. Fiona is green. Fiona is nice. Fiona is rough. Fiona is white. Harry is blue. Harry is furry. Harry is green. Harry is rough. Harry is white. Rough, big things are white. Big, nice things are rough. Blue, furry things are white.",Charlie is green.
+cb-alpha-593,"We know that Praf causes Vank, Vank causes not Scud, Scud or Wrenk causes Yobb, Yobb causes Klep.","Assume not Praf, and based on this assumption, further suppose not Wrenk. Would Klep occur?"
+cb-alpha-555,"We know that Praf causes Vank, Vank causes Scud, Scud or not Vank causes Wrenk, Wrenk causes Yobb, Yobb causes Glim, Glim causes Spog, and Spog and Yobb together cause Klep.","Assume not Praf, and based on this assumption, further suppose not Scud. Would Klep occur?"
+cb-alpha-885,"We know that Nuv causes Splee and Blen, Blen causes Druk, Druk and Plog together cause Skrim, Skrim causes Zimb, Zimb causes Wrox. We observed Plog",Would Wrox occur if not Nuv instead of Nuv?
+folio-validation-657,"Beijing is the capital of the People's Republic of China. 
+Beijing is the capital city of the world's most populous nation.
+Beijing is located in Northern China.
+Beijing hosted the 2008 Summer Olympics and 2008 Summer Paralympics Games.
+Beijing has hosted the Summer and Winter Olympics and the Summer and Winter Paralympics.
+Many of Beijing's 91 universities consistently rank among the best universities in the world.",Beijing hosted both the 2008 Summer Olympics and the Winter Olympics.
+folio-validation-1348,"All of Peter's pets that are mammals are also animals.
+All monkeys are mammals. 
+Peter's pets are all either monkeys or birds. 
+Peter's birds can fly.
+All animals that are Peter's pets can breathe.
+If Peter's pet can fly, then it has wings.
+Rock is Peter's pet.
+Rock can fly, or Rock is a bird, or Rock cannot breathe. ",Rock is a monkey.
+folio-validation-564,"When the Monkeypox virus occurs in a being, it may get Monkeypox. 
+Monkeypox virus can occur in certain animals.
+Humans are mammals.
+Mammals are animals.
+Symptoms of Monkeypox include fever, headache, muscle pains, and tiredness. 
+People feel tired when they get the flu.",No one gets the flu.
+rt-dev-1933-0,"Dave is blue. Dave is nice. Dave is red. Dave is smart. Dave is young. Erin is blue. Gary is red. Harry is blue. Harry is furry. Harry is nice. Harry is rough. Harry is smart. All blue people are rough. Every person that is rough and nice is red. Every person that is red is blue. If someone is blue and smart then they are nice. All furry, blue people are smart. If someone is blue and red then they are furry.",Dave is young.
+rt-dev-2303-0,"Bob is smart. Charlie is young. Erin is blue. Harry is furry. All rough, red things are not nice. Anyone who is not young is also rough. If something is not nice then it is blue. All smart things are blue. If Harry is smart then Harry is red. Anyone who is blue is also red.",Erin is blue.
+rt-dev-5720-0,Bob is red. Bob is green. Bob is cold. Charlie is round. Charlie is rough. Charlie is cold. Charlie is blue. Fred is red. Fred is green. Fred is blue. Gary is green. Gary is blue. Anyone who is kind and cold and blue is also young. Anyone who is cold and kind and green is also blue. If someone is round and big then they are blue. If someone is blue and round and young then they are red. If someone is blue and red then they are big. If someone is red and blue and round then they are green. If someone is green and cold then they are kind.,Fred is red.

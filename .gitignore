@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Large datasets and logs (reproducible via scripts/prepare_data.py)
+data/
+logs/
+
+# Large intermediate bake-off caches and raw JSONL outputs (keep cache/translations.json)
+cache/*
+!cache/translations.json
+results/*.jsonl
+
+# Assignment prompt / internal scratch notes
+Assignment_AI_2026*.pdf
+plan.md
