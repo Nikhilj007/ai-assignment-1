@@ -33,7 +33,8 @@ Running
    The translator is Qwen2.5-14B-Instruct (bf16) + our LoRA adapter (trained on solver-verified
    NL->FOL pairs from FOLIO train), served with tensor parallelism on 2x24 GB GPUs
    (LLM_TP=2; LLM_TP=1 on a 48 GB GPU). Set LLM_MODEL / LLM_ADAPTER / LLM_TP in the
-   configuration cell. The adapter (~0.5 GB) is at /scratch/r25cs0001/ai-assign/models/lora14b-r1.
+   configuration cell. The adapter (~0.5 GB) is at /scratch/r25cs0001/ai-assign/models/lora14b-r1
+   and on Hugging Face (nikhilj007/ai-assign-lora14b-r1).
 3. Open reasoning_agent.ipynb, set in the first code cell:
      DATA_DIR  : folder with the normalised public data (for the evaluation cell)
      TEST_FILE : CSV or JSONL with columns id, context, statement

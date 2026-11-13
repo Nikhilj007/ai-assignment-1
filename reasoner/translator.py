@@ -147,6 +147,9 @@ class VLLMBackend:
     def __init__(self, model, adapter=None, tp=1, max_model_len=8192, gpu_mem=0.88):
         from vllm import LLM
         self.name = model + (f"+{adapter}" if adapter else "")
+        if adapter and not os.path.isdir(adapter):
+            from huggingface_hub import snapshot_download
+            adapter = snapshot_download(adapter)
         self.adapter = adapter
         self.fewshot = adapter is None  # fine-tuned adapters are trained zero-shot
         lora_kw = dict(max_num_seqs=64, enforce_eager=True) if adapter else {}
